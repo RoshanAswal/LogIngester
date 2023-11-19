@@ -54,7 +54,7 @@ const Home = () => {
       <div className={styles.logsSection}>
         {
           logs.map((log,ind)=>(
-            <LogCard index={0} key={ind} log={log}/>
+            <LogCard index={0} key={ind} log={log} />
           ))
         }
       </div>
